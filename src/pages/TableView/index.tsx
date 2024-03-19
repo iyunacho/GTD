@@ -224,9 +224,7 @@ const TableView = () => {
           <div className="flex flex-row items-center justify-center overflow-hidden">
             <Search />
           </div>
-          <div className="w-[76px] text-[20px] leading-[20px] font-['Segoe_UI'] text-[#8e8e93]">
-            Search
-          </div>
+          <input type="text" placeholder="Search" className="w-[76px] text-[20px] leading-[20px] font-['Segoe_UI'] text-[#8e8e93]">
         </div>
       </div>
     </div>

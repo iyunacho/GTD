@@ -1,12 +1,22 @@
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './index.css';
+import Layout from './components/Layout';
 import TableView from './components/TableView';
-import './App.css';
 
 function App() {
   return (
-    <>
-      <TableView></TableView>
-      <div>test</div>
-    </>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<TableView />} />
+          <Route path='/Timeline'  />
+        </Routes>
+      </Layout>
+    </Router>
+
+  // <TableView></TableView>
+  // <div>test</div>
   );
 }
 

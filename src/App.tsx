@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Layout from './components/Layout';
@@ -10,14 +9,14 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path='/' element={<TableView />} />
-          <Route path='/Timeline' element={<TimelineView />} />
+          <Route path="/" element={<TableView />} />
+          <Route path="/Timeline" element={<TimelineView />} />
         </Routes>
       </Layout>
     </Router>
 
-  // <TableView></TableView>
-  // <div>test</div>
+    // <TableView></TableView>
+    // <div>test</div>
   );
 }
 

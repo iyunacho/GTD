@@ -1,7 +1,7 @@
 const TableView = () => {
   return (
     <>
-      <div>TableViewTest</div>
+      <h1>TableViewTest</h1>
     </>
   );
 };

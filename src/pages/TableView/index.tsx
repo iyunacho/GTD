@@ -1,8 +1,11 @@
+import SearchBar from "../../components/SearchBar";
+
 const TableView = () => {
   return (
-    <>
-      <h1>TableViewTest</h1>
-    </>
+    <div>
+      <h1>Table</h1>
+      <SearchBar></SearchBar>
+    </div>
   );
 };
 

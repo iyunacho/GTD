@@ -1,0 +1,22 @@
+#timeline-wrapper{
+    box-sizing: border-box;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+}
+.rct-header-root {
+    height: 100%;
+    border: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.rct-header-root .rct-calendar-header {
+    border: 1px solid salmon;
+    height: 50px;
+    width: 100% !important;
+    line-height: 60px;
+    overflow: scroll;
+}
+.rct-dateHeader {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}

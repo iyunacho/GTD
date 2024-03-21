@@ -14,9 +14,10 @@ const NavBar = () => {
                 <li>
                     <Link to='/'>TableView</Link>
                 </li>
-
                 <li>
-                    <Link to='/Timeline'>TimelineView</Link>
+                    <Link to='/Timeline'>
+                        TimelineView
+                    </Link>
                 </li>
             </ul>
         </nav>
